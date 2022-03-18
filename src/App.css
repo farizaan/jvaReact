@@ -1,38 +1,117 @@
 .App {
-  text-align: center;
+	padding: 24px;
+	font-size: 12px;
+	font-family: "Times New Roman", Times, serif;
+}
+table {
+	width: 630px;
+	border-radius: 2px;
+	background: #ffffff;
+	box-sizing: border-box;
+}
+table,
+th,
+td {
+	border: 1px solid #b9b9b9;
+	border-collapse: collapse;
+	text-align: left;
+}
+th:first-child {
+	width: 14px;
+}
+th,
+td {
+	padding: 10px 8px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titleText {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 284px;
+}
+#col_price {
+	width: 84px;
+	cursor: pointer;
+
+}
+#col_count {
+	width: 84px;
+	cursor: pointer;
+}
+#col_instalment {
+	width: 84px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+tr:first-child > th {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+tr {
+	background-color: rgba(255, 255, 255, 0.0001);
+}
+tr.orange {
+	background-color: #ffddbd;
+	box-shadow: inset 0px 1px 0px #b9b9b9;
+}
+.top {
+	display: flex;
+	margin-bottom: 8px;
+}
+.divCheck {
+	margin-right: 35px;
+}
+input[type="checkbox"] {
+	float: left;
+	margin: 0 3px 0 0;
+	cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* .box {
+	background: #fbfbfb;
+	border: 1px solid #74b4ff;
+	box-sizing: border-box;
+	border-radius: 4px;
+	font-size: 12px;
+	font-family: sans-serif;
+	padding: 20px;
+	margin: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.username {
+	font-size: 16px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+	display: flex;
+	align-items: center;
 }
+.headerContent {
+	width: 90%;
+}
+.bottom {
+	display: flex;
+	justify-content: space-between;
+}
+img {
+	margin-right: 20px;
+}
+.content {
+	background: #ffffff;
+	border: 1px solid #e8e8e8;
+	box-sizing: border-box;
+	border-radius: 4px;
+	padding: 10px;
+	height: 130px;
+	margin-bottom: 10px;
+}
+.avatar {
+	width: 60px;
+	height: 60px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.hint {
+	color: #808080;
+	margin: 0;
+} */
